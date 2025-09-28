@@ -64,7 +64,11 @@ These metrics are recorded in CSV files for subsequent analysis.
 
 
 
+## Testing
+Each algorithm has been tested for:
 
+Correctness: Validating results against known solutions (e.g., comparing Select to Arrays.sort(a)[k]).
+Performance: Ensuring recursion depth is bounded, and execution time aligns with the expected time complexity.
 
 
 
